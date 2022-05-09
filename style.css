@@ -1,3 +1,7 @@
+:root {
+    --bs-primary-rgb: 41, 187, 156;
+    --bs-secondary-rgb: 44, 62, 79;
+}
 
 .bg-secondary {
     background-color: #2C3F51!important;
@@ -20,7 +24,7 @@
 }
 
 .top-image {
-    width: 160px;
+    width: 200px;
     padding: 20px 0;
 }
 
@@ -83,4 +87,8 @@
 
 .footer-second-section span {
     font-size: .6rem;
+}
+
+.form-floating > .custom-space-message-input {
+    padding-bottom: 10rem;
 }
