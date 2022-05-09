@@ -1,4 +1,10 @@
 
+.bg-secondary {
+    background-color: #2C3F51!important;
+}
+
+
+
 .navbar-color {
     background-color: #2C3F51;
     color: white;
@@ -10,7 +16,6 @@
 
 .green-section {
     background-color: #19BC9D;
-    height: 380px;
     color: white;
 }
 
