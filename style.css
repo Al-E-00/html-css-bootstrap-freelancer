@@ -1,26 +1,7 @@
 :root {
     --bs-primary-rgb: 41, 187, 156;
     --bs-secondary-rgb: 44, 62, 79;
-}
-
-.bg-secondary {
-    background-color: #2C3F51!important;
-}
-
-
-
-.navbar-color {
-    background-color: #2C3F51;
-    color: white;
-}
-
-.modified-link-color a {
-    color: white;
-}
-
-.green-section {
-    background-color: #19BC9D;
-    color: white;
+    --bs-se
 }
 
 .top-image {
@@ -91,4 +72,32 @@
 
 .form-floating > .custom-space-message-input {
     padding-bottom: 10rem;
+}
+
+
+.img-center-content:hover{
+    transform: rotateY(10deg);
+    transform: rotateX(20deg);
+    transition: transform .30s ease-in-out;
+}
+
+.animated-icon-fb:hover {
+    background-color: #2d52a1;
+    transition: background-color .20s ease-in-out;
+    transform-origin: center;
+}
+.animated-icon-gp:hover {
+    background-color: #db4a39;
+    transition-property: background-color; 
+    transition-duration: .20s; 
+    transition-timing-function:  ease-in-out;
+    transform-origin: center;
+}
+.animated-icon-tw:hover {
+    background-color: #1DA1F2;
+    transition: background-color .20s ease-in-out;
+}
+.animated-icon-ld:hover {
+    background-color: #0e76a8;
+    transition: background-color .20s ease-in-out;
 }
